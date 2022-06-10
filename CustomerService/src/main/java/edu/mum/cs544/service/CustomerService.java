@@ -15,8 +15,9 @@ public class CustomerService {
     @Resource
     private CustomerDAO customerDAO;
 
-    public void addCustomer(Customer customer) {
-        customerDAO.save(customer);
+    public Customer addCustomer(Customer customer) {
+        Customer cus = customerDAO.save(customer);
+        return cus;
     }
 
     public Customer getCustomer(int id) {
