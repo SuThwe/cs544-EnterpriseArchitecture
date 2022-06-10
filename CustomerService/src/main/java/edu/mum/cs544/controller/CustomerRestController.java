@@ -13,8 +13,8 @@ public class CustomerRestController {
 
     @PostMapping(value = "/add")
     public Customer addCustomer(@RequestBody Customer customer) {
-        customerService.addCustomer(customer);
-        return customer;
+        Customer cus = customerService.addCustomer(customer);
+        return cus;
     }
 
     @GetMapping(value = "/get/{id}")
