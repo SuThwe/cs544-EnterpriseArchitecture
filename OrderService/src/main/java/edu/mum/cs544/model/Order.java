@@ -21,7 +21,6 @@ public class Order {
     @Id
     @GeneratedValue
     private Integer id;
-    // private List<Food> food;
     @Positive
     private double totalPrice;
 
@@ -136,9 +135,9 @@ public class Order {
     }
 
 
-    public void addFood(Food food) {
-        this.foods.add(food);
-    }
+    // public void addFood(Food food) {
+    //     this.foods.add(food);
+    // }
 
 
 
