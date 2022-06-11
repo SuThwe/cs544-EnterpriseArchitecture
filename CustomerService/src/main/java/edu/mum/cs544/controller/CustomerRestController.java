@@ -2,6 +2,9 @@ package edu.mum.cs544.controller;
 
 import edu.mum.cs544.model.Customer;
 import edu.mum.cs544.service.CustomerService;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,6 +13,9 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerRestController {
     @Autowired
     CustomerService customerService;
+
+    @GetMapping(value = "/")
+    public List<Customer> getAll(){return customerService.getAll();}
 
     @PostMapping(value = "/add")
     public Customer addCustomer(@RequestBody Customer customer) {

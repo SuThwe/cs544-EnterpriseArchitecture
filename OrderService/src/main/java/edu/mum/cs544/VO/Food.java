@@ -1,34 +1,18 @@
-package edu.mum.cs544.model;
+package edu.mum.cs544.VO;
 
-
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Positive;
-
-
-@Entity
 public class Food {
-
-    @Id
-    @GeneratedValue
     private Integer id;
-    @NotBlank
     private String name;
-    @NotBlank
     private String description;
-
-    @Positive
     private double price;
-    @NotBlank
     private String categoryFood;
-
     private int quantity;
 
     public Food() {
     }
 
-    public Food(@NotBlank String name, @NotBlank String description, @Positive double price,
-            @NotBlank String categoryFood) {
+    public Food( String name,  String description, double price,
+             String categoryFood, int quantity) {
         this.name = name;
         this.description = description;
         this.price = price;

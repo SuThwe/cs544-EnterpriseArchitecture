@@ -1,25 +1,17 @@
-package edu.mum.cs544.model;
+package edu.mum.cs544.VO;
 
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-@Entity
-public class Customer {
-
-    @Id
-    @GeneratedValue
+public class User {
+  
     private int id;
     private String firstName;
     private String lastName;
     private String address;
     private String phone;
     
-    public Customer() {
+    public User() {
     }
 
-    public Customer(int id, String firstName, String lastName, String address, String phone) {
+    public User(int id, String firstName, String lastName, String address, String phone) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
