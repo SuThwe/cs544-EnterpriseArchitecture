@@ -64,9 +64,9 @@ public class ResponseTemplate {
 
 
 
-    public void addFood(Food food) {
-        this.food.add(food);
-    }
+    // public void addFood(Food food) {
+    //     this.food.add(food);
+    // }
 
 
     

@@ -43,13 +43,13 @@ public class Order {
 
 
     public Order(@Positive double totalPrice, Date orderDate, String specialNote, OrderStatus orderStatus,
-            Integer userId, List<Food> foods) {
+            Integer userId, Integer foodId) {
         this.totalPrice = totalPrice;
         this.orderDate = orderDate;
         this.specialNote = specialNote;
         this.orderStatus = orderStatus;
         this.userId = userId;
-        this.foods = new ArrayList<>();
+        this.foodId = foodId;
     }
 
 
@@ -69,15 +69,15 @@ public class Order {
 
 
 
-    public List<Food> getFood() {
-        return foods;
-    }
+    // public List<Food> getFood() {
+    //     return foods;
+    // }
 
 
 
-    public void setFood(List<Food> food) {
-        this.foods = food;
-    }
+    // public void setFood(List<Food> food) {
+    //     this.foods = food;
+    // }
 
 
 
@@ -136,9 +136,9 @@ public class Order {
     }
 
 
-    // public void addFood(Food food) {
-    //     this.foods.add(food);
-    // }
+    public void addFood(Food food) {
+        this.foods.add(food);
+    }
 
 
 
