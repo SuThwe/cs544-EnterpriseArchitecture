@@ -1,10 +1,8 @@
 package edu.mum.cs544.model;
 
-
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Positive;
-
 
 @Entity
 public class Food {
@@ -12,6 +10,7 @@ public class Food {
     @Id
     @GeneratedValue
     private Integer id;
+
     @NotBlank
     private String name;
     @NotBlank
@@ -27,6 +26,15 @@ public class Food {
 
     public Food(@NotBlank String name, @NotBlank String description, @Positive double price,
             @NotBlank String categoryFood) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.categoryFood = categoryFood;
+    }
+
+    public Food(@NotBlank int id, @NotBlank String name, @NotBlank String description, @Positive double price,
+                @NotBlank String categoryFood) {
+        this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;

@@ -8,12 +8,11 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
 
-
 @RestController
 @RequestMapping("/api/foods")
 public class FoodController {
 
-@Autowired
+    @Autowired
     private FoodService foodService;
 
     @GetMapping(value = "/", produces = "application/json")
@@ -25,12 +24,10 @@ public class FoodController {
         return foodService.get(id);
     }
 
-
     @PostMapping(value = "/", consumes = "application/json")
-    public RedirectView add ( @RequestBody Food food){
+    public RedirectView add( @RequestBody Food food){
        Food f= foodService.add(food);
-        return new RedirectView("/api/foods/"+f.getId());
-      
+       return new RedirectView("/api/foods/"+f.getId());
     }
 
     @PutMapping(value = "/{id}", consumes = "application/json")
@@ -42,8 +39,9 @@ public class FoodController {
     }
 
     @DeleteMapping(value = "/{id}")
-    public String delete (@PathVariable int id){foodService.delete(id);
-        return "Food with id = " + id + " is deleted.";}
-
+    public String delete (@PathVariable int id){
+        foodService.delete(id);
+        return "Food with id = " + id + " is deleted.";
+    }
 
 }

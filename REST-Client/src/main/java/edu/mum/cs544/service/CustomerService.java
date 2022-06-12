@@ -18,7 +18,6 @@ public class CustomerService {
     }
 
     public Customer get(int id) {
-        Customer customer = restTemplate.getForObject(customerUrl + "/get/{id}", Customer.class, id);
-        return customer;
+        return restTemplate.getForObject(customerUrl + "/get/{id}", Customer.class, id);
     }
 }
