@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40bb6c98-1d6a-4177-a185-a6f03b9a1589" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/FoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/controller/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/controller/FoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/service/FoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/controller/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/controller/FoodController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ASTjmV3NLgItxP8tTjzGob3z63" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="FoodService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.mum.cs544.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40bb6c98-1d6a-4177-a185-a6f03b9a1589" name="Changes" comment="" />
+      <created>1655002124161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655002124161</updated>
+      <workItem from="1655002125593" duration="1881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
