@@ -18,6 +18,7 @@ public class Food {
 
     @Positive
     private double price;
+
     @NotBlank
     private String categoryFood;
 
