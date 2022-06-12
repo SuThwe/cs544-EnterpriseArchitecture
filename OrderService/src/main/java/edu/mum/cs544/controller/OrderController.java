@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api/order")
 public class OrderController {
 
-@Autowired
+    @Autowired
     private OrderService orderService;
 
     @GetMapping(value = "/", produces = "application/json")
