@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40bb6c98-1d6a-4177-a185-a6f03b9a1589" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/repository/IFoodDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/controller/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/controller/FoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OrderService/src/main/java/edu/mum/cs544/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/controller/CustomerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/controller/CustomerRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/service/FoodService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/controller/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/controller/FoodController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ASTjmV3NLgItxP8tTjzGob3z63" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655002124161</updated>
-      <workItem from="1655002125593" duration="2251000" />
+      <workItem from="1655002125593" duration="4054000" />
     </task>
     <servers />
   </component>

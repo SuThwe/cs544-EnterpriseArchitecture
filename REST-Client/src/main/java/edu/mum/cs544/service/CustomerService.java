@@ -11,7 +11,7 @@ public class CustomerService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private String customerUrl = "http://localhost:9090/customer";
+    private String customerUrl = "http://localhost:9090/api/customer";
 
     public void add(Customer customer){
         restTemplate.postForLocation(customerUrl + "/add", customer);
