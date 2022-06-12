@@ -31,7 +31,7 @@ public class FoodController {
     }
 
     @PutMapping(value = "/{id}", consumes = "application/json")
-    public String update(@PathVariable (value = "id") int id, @RequestBody Food food)
+    public String update (@PathVariable (value = "id") int id, @RequestBody Food food)
     {
         if(id!=food.getId()){throw new IllegalArgumentException();}
         foodService.update(food);

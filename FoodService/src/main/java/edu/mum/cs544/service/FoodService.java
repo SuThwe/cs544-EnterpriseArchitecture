@@ -21,8 +21,7 @@ public class FoodService {
 
     public Food add(Food food) {return foodDao.save(food);}
 
-    public Food  get(int id)
-    {
+    public Food  get(int id) {
         return foodDao.findById(id).get();
     }
 

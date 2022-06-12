@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40bb6c98-1d6a-4177-a185-a6f03b9a1589" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/FoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/repository/IFoodDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/controller/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/controller/FoodController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
@@ -20,8 +27,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655002124161</updated>
-      <workItem from="1655002125593" duration="1881000" />
+      <workItem from="1655002125593" duration="2251000" />
     </task>
     <servers />
   </component>

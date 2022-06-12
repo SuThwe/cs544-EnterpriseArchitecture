@@ -1,17 +1,16 @@
 package edu.mum.cs544.model;
 
-
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Positive;
-
 
 @Entity
 public class Food {
 
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
+
     @NotBlank
     private String name;
     @NotBlank
