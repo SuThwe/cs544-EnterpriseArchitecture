@@ -1,14 +1,12 @@
 package edu.mum.cs544.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
+@ToString
 public class Food {
 
     private Integer id;
@@ -16,5 +14,6 @@ public class Food {
     private String description;
     private double price;
     private String categoryFood;
+
 
 }
