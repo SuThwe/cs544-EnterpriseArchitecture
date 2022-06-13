@@ -14,6 +14,6 @@ public class Food {
     private String description;
     private double price;
     private String categoryFood;
-
+   
 
 }
