@@ -26,6 +26,7 @@ public class Order {
     private String specialNote;
 
 	private OrderStatus orderStatus = OrderStatus.Created;
+    
 
     private Customer customer;
 

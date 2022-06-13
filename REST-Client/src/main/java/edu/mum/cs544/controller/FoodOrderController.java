@@ -1,6 +1,9 @@
 package edu.mum.cs544.controller;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -28,10 +31,7 @@ public class FoodOrderController {
     @Autowired
     OrderService orderService;
     
-    // @GetMapping("/")
-	// public String redirectRoot() {
-	// 	return "redirect:/login";
-	// }
+    
     /*****************************ORDERS******************************************************* */
     @GetMapping(value = "/orders/{id}", produces = "application/json")
     public Order get(@PathVariable (value = "id") int id)
@@ -50,6 +50,14 @@ public class FoodOrderController {
     @PostMapping(value = "/orders/add", consumes = "application/json")
     public RedirectView add ( @RequestBody Order order){
         Order o= orderService.add(order);
+        List<Food> foodList = new ArrayList<>();
+        for (Food f : foodList){
+            foodList.add(order.getFoodList().get(f.getId()));
+        }
+            
+      
+        o.setFoodList(foodList);
+        o.setCustomer(order.getCustomer());
          return new RedirectView("/api/orders/"+o.getId());
        
      }
@@ -141,7 +149,7 @@ public class FoodOrderController {
      }
 
      
-    @DeleteMapping(value = "/foods/{id}")
+    @DeleteMapping(value = "/customers/{id}")
     public String deleteCustomer (@PathVariable int id){
         customerService.delete(id);
         return "Customer with id = " + id + " is deleted.";
