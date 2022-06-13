@@ -24,7 +24,7 @@ public class FoodController {
         return foodService.get(id);
     }
 
-    @PostMapping(value = "/", consumes = "application/json")
+    @PostMapping(value = "/add", consumes = "application/json")
     public RedirectView add( @RequestBody Food food){
        Food f= foodService.add(food);
        return new RedirectView("/api/foods/"+f.getId());
