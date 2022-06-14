@@ -5,26 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40bb6c98-1d6a-4177-a185-a6f03b9a1589" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OrderService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/controller/CustomerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/controller/CustomerRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/java/edu/mum/cs544/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/controller/CustomerRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/controller/CustomerRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerService/target/classes/edu/mum/cs544/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/src/main/java/edu/mum/cs544/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/src/main/java/edu/mum/cs544/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/VO/ResponseTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/VO/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/controller/FoodController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/controller/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/controller/FoodController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/model/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/repository/IFoodDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs544/service/FoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/src/main/java/edu/mum/cs544/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/src/main/java/edu/mum/cs544/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Order$OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Order$OrderStatus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/repository/IFoodDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/service/FoodService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/repository/IOrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/repository/IOrderDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OrderService/target/classes/edu/mum/cs544/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REST-Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/model/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/java/edu/mum/cs544/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/DTO/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/DTO/LoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/DTO/SignUpDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/DTO/SignUpDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/controller/FoodOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/controller/FoodOrderController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Order$OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Order$OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/CustomUserDetailsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/CustomerService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/FoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../REST-Client/target/classes/edu/mum/cs544/service/OrderService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +111,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -90,6 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655002124161</updated>
       <workItem from="1655002125593" duration="4871000" />
+      <workItem from="1655190357570" duration="1014000" />
     </task>
     <servers />
   </component>

@@ -26,7 +26,6 @@ public class CustomerService {
         return customerDAO.findById(id).get();
     }
 
-    
     public List<Customer> getAll() {
         return customerDAO.findAll();
     }
