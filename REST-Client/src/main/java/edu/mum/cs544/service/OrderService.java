@@ -17,7 +17,7 @@ public class OrderService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private String orderUrl = "http://localhost:9900/api/order";
+    private String orderUrl = "http://localhost:9900/api/orders";
 
     public Order add(Order order) {
         order.setTotalPrice(order.calculateTotalCost(order.getFoodList()));

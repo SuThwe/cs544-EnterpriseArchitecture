@@ -29,7 +29,7 @@ public class CustomerRestController {
         return customerService.getCustomer(id);
     }
 
-    @PostMapping(value = "/update")
+    @PostMapping(value = "/update/{id}")
     public Customer updateCustomer(@RequestBody Customer customer) {
         customerService.updateCustomer(customer);
         return customer;
