@@ -23,7 +23,6 @@ public class CustomerRestController {
         return cus;
     }
 
-
     @GetMapping(value = "/get/{id}")
     public Customer getCustomer(@PathVariable int id) {
         return customerService.getCustomer(id);
